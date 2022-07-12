@@ -8,8 +8,7 @@ int buzzer = 12; // Buzzer Pin
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 const char* host = "192.168.1.167";
 void setup() {
-    WiFi.begin("dlink", "");
-   // put your setup code here, to run once:
+    // put your setup code here, to run once:
     Serial.begin(9600);
     pinMode(redPin, OUTPUT);
     pinMode(buzzer, OUTPUT);
